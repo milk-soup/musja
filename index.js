@@ -16,7 +16,6 @@ function Index(){
 
     var data = {}
     var q = query(window.location.search)
-    console.log(q)
 
     if(q.lang == 'en'){
         data = DataEng
