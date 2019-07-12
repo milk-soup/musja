@@ -37,9 +37,13 @@ function Index(){
                 </div>
                 {/* Main content */}
                 <div className="column is-two-thirds main-content">
-                        <Navbar data={data} />
-                        <Socials classes="is-hidden-mobile has-text-right-desktop has-text-centered-tablet padding2"/>
-                        <CountdownContainer data={data}/>
+                        <header>
+                            <Navbar data={data} />
+                            <Socials classes="is-hidden-mobile has-text-right-desktop has-text-centered-tablet padding2"/>
+                        </header>
+                        <main>
+                            <CountdownContainer data={data}/>
+                        </main>
                 </div>
             </div>
             </Hero>

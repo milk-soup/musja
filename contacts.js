@@ -37,18 +37,22 @@ function Contact(){
                 </div>
                 {/* Main content */}
                 <div className="column is-two-thirds main-content">
-                        <Navbar data={data}/>
-                        <Socials classes="is-hidden-mobile has-text-right-desktop has-text-left-tablet padding2"/>
-                        <div className="vertical-align">
-                            <h1 className="title is-1 is-capitalized">
-                                {data.contacts}
-                            </h1>
-                            <ul className="subtitle is-4">
-                                <li>{data.address}</li>
-                                <li>{data.tel}</li>
-                                <li><a href={'mailto:' + data.email}>{data.email}</a></li>
-                            </ul>
-                        </div>
+                        <header>
+                            <Navbar data={data}/>
+                            <Socials classes="is-hidden-mobile has-text-right-desktop has-text-left-tablet padding2"/>
+                        </header>
+                        <main>
+                            <div className="vertical-align">
+                                <h1 className="title is-1 is-capitalized">
+                                    {data.contacts}
+                                </h1>
+                                <ul className="subtitle is-4">
+                                    <li>{data.address}</li>
+                                    <li>{data.tel}</li>
+                                    <li><a href={'mailto:' + data.email}>{data.email}</a></li>
+                                </ul>
+                            </div>
+                        </main>
                 </div>
             </div>
             </Hero>
