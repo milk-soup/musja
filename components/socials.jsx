@@ -18,11 +18,11 @@ function Socials(props){
                     <i className="fab fa-instagram"></i>
                 </span>
             </a>
-            <a className="button social" href="https://www.youtube.com/channel/UCAAs7yTnwIJRPLvZsNpA-YQ">
+            {/* <a className="button social" href="https://www.youtube.com/channel/UCAAs7yTnwIJRPLvZsNpA-YQ">
                 <span className="icon is-small">
                     <i className="fab fa-youtube"></i>
                 </span>
-            </a>
+            </a> */}
         </div>
     )
 }
