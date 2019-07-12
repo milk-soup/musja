@@ -3,54 +3,63 @@
 @media(max-width: 480px){
     body{
         background: url('../images/background-w_480.jpg') no-repeat center center;
+        background: url('../images/webp/background-w_480.webp') no-repeat center center;
     }
 }
 @media(min-width: 481px)
 {
     body{
         background: url('../images/background-w_832.jpg') no-repeat center center;
+        background: url('../images/webp/background-w_832.webp') no-repeat center center;
     }
 }
 @media(min-width: 1103px)
 {
     body{
         background: url('../images/background-w_1103.jpg') no-repeat center center;
+        background: url('../images/webp/background-w_1103.webp') no-repeat center center;
     }
 }
 @media(min-width: 1354px)
 {
     body{
         background: url('../images/background-w_1354.jpg') no-repeat center center;
+        background: url('../images/webp/background-w_1354.webp') no-repeat center center;
     }
 }
 @media(min-width: 1552px)
 {
     body{
         background: url('../images/background-w_1552.jpg') no-repeat center center;
+        background: url('../images/webp/background-w_1552.webp') no-repeat center center;
     }
 }
 @media(min-width: 1911px)
 {
     body{
         background: url('../images/background-w_1911.jpg') no-repeat center center;
+        background: url('../images/webp/background-w_1911.webp') no-repeat center center;
     }
 }
 @media(min-width: 2069px)
 {
     body{
         background: url('../images/background-w_2069.jpg') no-repeat center center;
+        background: url('../images/webp/background-w_2069.webp') no-repeat center center;
     }
 }
 @media(min-width: 2364px)
 {
     body{
         background: url('../images/background-w_2364.jpg') no-repeat center center;
+        background: url('../images/webp/background-w_2364.webp') no-repeat center center;
     }
 }
 @media(min-width: 2445px)
 {
     body{
         background: url('../images/background-w_2445.jpg') no-repeat center center;
+        background: url('../images/webp/background-w_2445.webp') no-repeat center center;
     }
 }
 html,body{
