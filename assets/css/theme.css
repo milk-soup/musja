@@ -173,3 +173,11 @@ body{
     border-color: #3c3c3b;
     transform: scale(1.1);
 }
+.social-svg-9{
+    height: inherit;
+    width: 0.5em;
+}
+.social-svg-16{
+    height: inherit;
+    width: 1em;
+}
