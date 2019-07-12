@@ -1,17 +1,5 @@
 @import 'bulma/css/bulma.css';
 
-@font-face {
-    font-family: Museo Sans;
-    src: url(../fonts/MuseoSans_300.otf);
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: Museo Sans;
-    src: url(../fonts/MuseoSans_700.otf);
-    font-weight: 700;
-}
-
 @media(max-width: 480px){
     body{
         background: url('../images/background-w_480.jpg') no-repeat center center;
