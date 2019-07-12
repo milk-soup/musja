@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import ReactDOM from "react-dom";
 
+import'./assets/css/theme.css';
+
 import Hero from './components/hero'
 import Logo from './components/logo'
 import Navbar from './components/navbar'
