@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Countdown, {zeroPad} from 'react-countdown-now';
 
+import Socials from './socials'
+
 function CountdownContainer(props){
     let data = props.data
     return(
@@ -34,6 +36,19 @@ function CountdownContainer(props){
                             </div>
                         </div>}
                     />
+                    <div className="is-hidden-desktop has-text-centered is-uppercase">
+                        <div className="footer-link">
+                                <a className="link-navbar link-footer" href="./contacts.html">{props.data.contacts} -</a>
+                                <a className="link-navbar link-lang" href="?lang=it">
+                                    Ita
+                                </a>
+                                <span className="divider-pipe link-lang"> | </span>
+                                <a className="link-navbar link-lang" href="?lang=en">
+                                    Eng
+                                </a>
+                        </div>
+                        <Socials/>
+                    </div>
                 </div>
             </div>
             

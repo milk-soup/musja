@@ -28,7 +28,7 @@ function Index(){
             <Hero className="hero is-fullheight hero-section">
             <div className="columns">
                 {/* Logo column */}
-                <div className="column is-hidden-mobile">
+                <div className="column is-narrow is-hidden-mobile">
                     <div className="logo-container">
                         <a href="/">
                             <Logo fill="#efeddb" height="64" />
@@ -36,10 +36,10 @@ function Index(){
                     </div>
                 </div>
                 {/* Main content */}
-                <div className="column is-two-thirds main-content">
+                <div className="column main-content">
                         <header>
                             <Navbar data={data} />
-                            <Socials classes="is-hidden-mobile has-text-right-desktop has-text-centered-tablet padding2"/>
+                            <Socials classes="is-hidden-touch has-text-right-desktop has-text-centered-tablet padding2"/>
                         </header>
                         <main>
                             <CountdownContainer data={data}/>

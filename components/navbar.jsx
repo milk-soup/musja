@@ -20,7 +20,7 @@ function Navbar(props){
                 <a className="navbar-item is-hidden-tablet" href="/">
                     <Logo height="32" fill="#3c3c3b"/>
                 </a>
-                <a role="button" className={'navbar-burger burger ' + active} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onClick={()=>isActive(active)}>
+                <a role="button" className={'navbar-burger burger is-hidden ' + active} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onClick={()=>isActive(active)}>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
